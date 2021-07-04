@@ -7,6 +7,7 @@ body{
 
 section{
     display:flex;
+    margin-bottom: 150px;
 }
 .half-item{
     margin-left: 5.8%;
@@ -43,3 +44,23 @@ h4{
     padding:5px;
     display: block;
 }
+.dream{
+    width: 45%;
+    margin-left:100px;
+}
+.dream p{
+    text-align:justify;
+    padding: 5px;
+}
+.dream a{
+    text-decoration:none;
+    background-image:linear-gradient( orange , hsl(19, 100%, 50%) );
+    color:white;
+    width: 200px;
+    height: 25px;
+    border-radius:3px;
+    text-align:center;
+    padding:5px;
+    display: block;
+}
+
