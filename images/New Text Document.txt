@@ -1,0 +1,14 @@
+.welcome{
+    /*width: 500px;
+    height: 500px*/
+    
+}.dream{
+    /*width: 500px;
+    height: 500px;
+    margin-right: 50px;*/
+}.image img{
+    /*width: 500px;
+    height: 500px;
+    padding: 10px;*/
+    /*margin-right:10%;*/
+}

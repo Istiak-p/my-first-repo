@@ -5,12 +5,31 @@ body{
     margin:0;
 }
 
-section{
+.welcomto{
     display:flex;
     margin-bottom: 150px;
 }
+
+.big-dream{
+    display:flex;
+    margin-bottom: 150px;
+    
+}
+.dream-bg {
+    
+   background-image:url("images/dream-bg.png");
+   background-position: bottom right;
+   background-repeat: no-repeat;
+    
+}
+
 .half-item{
-    margin-left: 5.8%;
+    margin: 0 5.88%;
+    width: 50%;
+}
+.image img{
+    width: 500px;
+    height:500px;
 }
 h1{
     font-size: 37px;
@@ -21,14 +40,8 @@ h4{
 .orenge-color{
     color: orange;
 }
-.image img{
-    width: 450px;
-    height: 450px;
-    margin-right:10%;
-}
-.welcome{
-    width: 45%;
-}
+
+
 .welcome p{
     text-align:justify;
     padding: 5px;
@@ -44,10 +57,7 @@ h4{
     padding:5px;
     display: block;
 }
-.dream{
-    width: 45%;
-    margin-left:100px;
-}
+
 .dream p{
     text-align:justify;
     padding: 5px;
@@ -63,4 +73,27 @@ h4{
     padding:5px;
     display: block;
 }
-
+.experience-area{
+    margin-bottom: 115px;
+   
+}
+.experience{
+    display: flex;
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    
+}
+.box-shadow{
+    box-shadow: 0 0 30px 10px gray;
+    padding:10px;
+    
+}
+.border{
+    border-left:7px solid;
+    border-image: linear-gradient( orange , hsl(19, 100%, 50%) );
+    border-image-slice:1;
+}
+.copywrite{
+    text-align: center;
+}
